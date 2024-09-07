@@ -1,0 +1,62 @@
+  
+  .experience-section h2{
+    margin-bottom: 2rem;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid var(--primary-color); /* Línea vertical */
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    position: absolute;
+    left: -14px; /* Alineado con la línea */
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary-color); /* Color del círculo */
+    border-radius: 50%;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .position {
+    font-family: Medium;
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  .date {
+    color: #999;
+    font-family: Regular;
+    font-size: 0.7rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .timeline {
+      padding-left: 20px;
+    }
+  
+    .circle {
+      left: -10px; /* Ajustar para pantallas más pequeñas */
+      width: 10px;
+      height: 10px;
+    }
+  
+  
+    .position {
+      font-size: 1rem;
+    }
+  }

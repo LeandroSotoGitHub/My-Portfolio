@@ -1,0 +1,26 @@
+.technical-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+  .progress.html {
+    width: 90%; /* Nivel de habilidad */
+  }
+  
+  .progress.css {
+    width: 80%;
+  }
+  
+  .progress.js {
+    width: 70%;
+  }
+  
+  .progress.angular {
+    width: 60%;
+  }
+  
+  .progress.figma {
+    width: 50%;
+  }

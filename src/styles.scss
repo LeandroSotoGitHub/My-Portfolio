@@ -1,1 +1,138 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #DBFF00;
+    --primary-color-dark: #BFDE00;
+    /* --secondary-color: #15151f;
+    --secondary-color-dark: #0a0b0f;
+    --text-light: #6b7280;
+    --extra-light: #f8f7fd; */
+    --white: #ffffff;
+    /* --max-width: 1200px; */
+  }
+
+@font-face {
+    font-family: Bold;
+    src: url(app/assets/Letters/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: SemiBold;
+    src: url(app/assets/Letters/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(app/assets/Letters/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Medium;
+    src: url(app/assets/Letters/Poppins-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Regular;
+}
+
+i {
+    color: #000;
+    font-size: 1rem;
+}
+ul{
+    list-style-type: none;
+}
+
+.containerFlex{
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Para ocupar toda la altura de la pantalla */
+}
+
+.sectionTitle {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky; /* Para mantenerlo fijo en la parte superior */
+    top: 0;
+    background-color: white; /* Puedes ajustarlo según el color de fondo */
+    z-index: 10; /* Asegura que el título esté por encima del contenido */
+}
+.title{
+    font-family: Bold;
+    font-size: 6rem;
+}
+.subtitle{
+    font-family: SemiBold;
+    font-size: 1.5rem;
+}
+.subtitle1{
+    font-family: Medium;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 0.4s;
+    margin-right: 10px;
+}
+
+.btn.primary {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+.btn.primary:hover {
+    background-color: var(--primary-color-dark);
+    color: #000;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: #000;
+}
+
+.btn.secondary:hover {
+    background-color: var(--primary-color-dark);
+    color: #000;
+    border-color: var(--primary-color-dark);
+}
+
+
+label {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    flex: 2;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    position: relative;
+    height: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: var(--primary-color); /* Color principal */
+    border-radius: 10px;
+    position: relative;  /* Importante para posicionar el punto */
+    transition: width 0.5s ease;
+  }
+  
+  .dot {
+    position: absolute;
+    right: 0; /* Se ubica al final de la barra */
+    top: 50%;
+    transform: translate(50%, -50%); /* Centramos el punto en la barra */
+    width: 12px;
+    height: 12px;
+    background-color: black;  /* Color del punto */
+    border-radius: 50%;
+  }

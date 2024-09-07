@@ -1,0 +1,20 @@
+.scrollableContent {
+    flex: 1;
+    overflow-y: auto; /* Hace que el contenido sea scrollable */
+    padding: 0 2rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Para que ocupe el espacio restante del menú */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
