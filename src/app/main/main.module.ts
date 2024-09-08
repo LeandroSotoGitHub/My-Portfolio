@@ -11,6 +11,8 @@ import { AboutMeComponent } from './my-carrear/components/about-me/about-me.comp
 import { LenguagesComponent } from './my-carrear/components/lenguages/lenguages.component';
 import { SoftSkillsComponent } from './my-carrear/components/soft-skills/soft-skills.component';
 import { EducationComponent } from './my-carrear/components/education/education.component';
+import { MyPortfolioComponent } from './my-portfolio/my-portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { EducationComponent } from './my-carrear/components/education/education.
     AboutMeComponent,
     LenguagesComponent,
     SoftSkillsComponent,
-    EducationComponent
+    EducationComponent,
+    MyPortfolioComponent,
+    ContactComponent
   ],
   exports:[
     MainComponent
@@ -30,7 +34,7 @@ import { EducationComponent } from './my-carrear/components/education/education.
   imports: [
     CommonModule,
     mainRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class PortfolioModule { }

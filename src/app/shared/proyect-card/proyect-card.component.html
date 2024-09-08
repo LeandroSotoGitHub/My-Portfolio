@@ -1,0 +1,18 @@
+<div *ngFor="let project of projects" class="card">
+    <img [src]="project.image" alt="Imagen del proyecto" class="project-image" />
+    <div class="card-content">
+      <div class="technologies">
+        <ng-container *ngFor="let tech of project.technologies">
+          <img [src]="tech.icon" [alt]="tech.name" class="tech-icon" />
+        </ng-container>
+      </div>
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <div class="project-links">
+        <a *ngIf="project.link" [href]="project.link" target="_blank">Visitar sitio</a>
+        <a *ngIf="project.repo" [href]="project.repo" target="_blank">
+          <i class="ri-github-fill"></i> Repositorio
+        </a>
+      </div>
+    </div>
+  </div>

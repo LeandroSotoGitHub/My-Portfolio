@@ -1,0 +1,27 @@
+[
+    {
+      "image": "assets/images/siniestros-liniers.png",
+      "technologies": [
+        { "icon": "assets/icons/html5.png", "name": "HTML5" },
+        { "icon": "assets/icons/css3.png", "name": "CSS3" },
+        { "icon": "assets/icons/js.png", "name": "JavaScript" }
+      ],
+      "title": "Siniestros Liniers",
+      "description": "Este proyecto presentó un desafío adicional, ya que el cliente requería animaciones avanzadas y un diseño visualmente impactante. Para cumplir con estas exigencias, integré librerías como Swiper.js y ScrollReveal, lo que me permitió implementar las animaciones de manera efectiva. Además, la utilización de tecnologías como HTML, CSS y JavaScript me proporcionó la versatilidad necesaria para abordar y desarrollar el proyecto de manera eficiente",
+      "link": "https://ejemplo.com",
+      "repo": "https://github.com/usuario/proyecto"
+    },
+    {
+      "image": "assets/images/siniestros-liniers.png",
+      "technologies": [
+        { "icon": "assets/icons/html5.png", "name": "HTML5" },
+        { "icon": "assets/icons/css3.png", "name": "CSS3" },
+        { "icon": "assets/icons/js.png", "name": "JavaScript" }
+      ],
+      "title": "PRUEBAAAAAAAAAAA",
+      "description": "PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "link": "https://ejemplo.com",
+      "repo": "https://github.com/usuario/proyecto"
+    }
+
+  ]

@@ -1,5 +1,6 @@
 .gridContainer {
     display: grid;
+    grid-template-rows: auto 1fr;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 0 2rem;
@@ -15,4 +16,19 @@
     flex: 1;
     overflow-y: auto; /* Hace que el contenido sea scrollable */
     padding: 0 2rem;
+}
+
+
+
+.menuPortafolioContainer{
+    grid-column: 1 / -1; /* Ocupa todas las columnas */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menuComponent{
+    display: flex;
+    align-items: center;
+    gap: 1rem
 }

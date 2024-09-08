@@ -3,14 +3,17 @@ import { CommonModule } from '@angular/common';
 
 import { SharedRoutingModule } from './shared-routing.module';
 import { MenuComponent } from './menu/menu.component';
+import { ProyectCardComponent } from './proyect-card/proyect-card.component';
 
 
 @NgModule({
   declarations: [
-    MenuComponent
+    MenuComponent,
+    ProyectCardComponent
   ],
   exports:[
-    MenuComponent
+    MenuComponent,
+    ProyectCardComponent
   ],
   imports: [
     CommonModule,
