@@ -1,0 +1,43 @@
+<div class="menuPortafolioContainer">
+    <button class="subtitle1 menuActivo" >
+    Todos los proyectos
+    </button>
+
+    <div class="menuComponent">
+        <button class="subtitle1" 
+        (click)="toggleMenu('html')"
+        [ngClass]="{'menuActivo': isHtmlMenuOpen}">
+        HTML, CSS Y JS
+        <i class="ri-arrow-down-s-line"></i>
+        </button>
+        <div *ngIf="isHtmlMenuOpen" class="submenu">
+            <a>Proyectos personales</a>
+            <a>Proyectos para clientes</a>
+            <a>Todos los proyectos</a>
+          </div>
+    </div>
+    <div class="menuComponent">
+        <button class="subtitle1"
+        (click)="toggleMenu('angular')"
+        [ngClass]="{'menuActivo': isAngularMenuOpen}">
+        Angular
+        <i class="ri-arrow-down-s-line"></i>
+        </button>
+        <div *ngIf="isAngularMenuOpen" class="submenu">
+            <a>Proyectos personales</a>
+            <a>Proyectos para clientes</a>
+        </div>
+    </div>
+    <div class="menuComponent">
+        <button class="subtitle1"
+        (click)="toggleMenu('figma')"
+        [ngClass]="{'menuActivo': isFigmaMenuOpen}">
+        Figma
+        <i class="ri-arrow-down-s-line"></i>
+        </button>
+        <div *ngIf="isFigmaMenuOpen" class="submenu">
+            <a>Proyectos personales</a>
+            <a>Proyectos para clientes</a>
+        </div>
+    </div>
+</div>

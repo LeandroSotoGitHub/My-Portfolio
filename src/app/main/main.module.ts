@@ -13,6 +13,15 @@ import { SoftSkillsComponent } from './my-carrear/components/soft-skills/soft-sk
 import { EducationComponent } from './my-carrear/components/education/education.component';
 import { MyPortfolioComponent } from './my-portfolio/my-portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProyectCardComponent } from './my-portfolio/components/proyect-card/proyect-card.component';
+import { ProjectsMenuComponent } from './my-portfolio/components/projects-menu/projects-menu.component';
+import { HtmlPersonalComponent } from './my-portfolio/components/html,css,js-components/html-personal/html-personal.component';
+import { HtmlClientesComponent } from './my-portfolio/components/html,css,js-components/html-clientes/html-clientes.component';
+import { HtmlTodosComponent } from './my-portfolio/components/html,css,js-components/html-todos/html-todos.component';
+import { AngularComponent } from './my-portfolio/components/angular-components/angular/angular.component';
+import { FigmaClientesComponent } from './my-portfolio/components/figma-components/figma-clientes/figma-clientes.component';
+import { FigmaPersonalComponent } from './my-portfolio/components/figma-components/figma-personal/figma-personal.component';
+import { FigmaTodosComponent } from './my-portfolio/components/figma-components/figma-todos/figma-todos.component';
 
 
 @NgModule({
@@ -26,7 +35,16 @@ import { ContactComponent } from './contact/contact.component';
     SoftSkillsComponent,
     EducationComponent,
     MyPortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    ProyectCardComponent,
+    ProjectsMenuComponent,
+    HtmlPersonalComponent,
+    HtmlClientesComponent,
+    HtmlTodosComponent,
+    AngularComponent,
+    FigmaClientesComponent,
+    FigmaPersonalComponent,
+    FigmaTodosComponent
   ],
   exports:[
     MainComponent

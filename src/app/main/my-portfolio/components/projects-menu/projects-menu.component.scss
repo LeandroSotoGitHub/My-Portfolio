@@ -1,0 +1,61 @@
+button {
+    background-color: var(--white);
+    border: 0;
+    // border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    // color: var(--white);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menuActivo:hover{
+    transform: scale(1.02);
+}
+.menuPortafolioContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.menuComponent{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.menuActivo{
+    color: #000;
+    background-color: var(--primary-color);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+  }
+
+  .submenu a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .submenu a:hover {
+    text-decoration: underline;
+  }

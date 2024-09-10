@@ -1,8 +1,16 @@
+.containerGrid {
+    display: grid;
+    grid-template-columns: 13.85rem 1fr; /* Primera columna para el aside, segunda para el contenido */
+    height: 100vh; /* Para que el grid ocupe toda la altura de la ventana */
+}
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+.sectionTitle{
     margin-bottom: 2rem;
 }
 .mainContent {
@@ -12,7 +20,5 @@
     height: 100vh; /* Ocupa toda la altura de la ventana */
 }
 .scrollableContent {
-    flex: 1;
-    overflow-y: auto; /* Hace que el contenido sea scrollable */
     padding: 0 2rem;
 }

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContactComponent } from './contact.component';
+import { FigmaPersonalComponent } from './figma-personal.component';
 
-describe('ContactComponent', () => {
-  let component: ContactComponent;
-  let fixture: ComponentFixture<ContactComponent>;
+describe('FigmaPersonalComponent', () => {
+  let component: FigmaPersonalComponent;
+  let fixture: ComponentFixture<FigmaPersonalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ContactComponent]
+      declarations: [FigmaPersonalComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ContactComponent);
+    fixture = TestBed.createComponent(FigmaPersonalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

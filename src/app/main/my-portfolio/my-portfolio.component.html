@@ -1,27 +1,14 @@
-<main class="containerFlex">
+<main class="containerGrid">
     <app-menu/>
     <div class="mainContent">
         <div class="sectionTitle">
             <h1 class="title">Portafolio</h1>
         </div>
+        <div class="stickyContainer">
+        <app-projects-menu (filterChange)="onFilterChange($event)"/>
+        </div>
         <div class="scrollableContent">
-            <div class="gridContainer">
-                <div class="menuPortafolioContainer">
-                    <h2 class="subtitle1">Todos los proyectos</h2>
-                    <div class="menuComponent">
-                        <h2 class="subtitle1">HTML,CSS Y Js</h2>
-                        <i class="ri-arrow-down-s-line"></i>
-                    </div>
-                    <div class="menuComponent">
-                        <h2 class="subtitle1">Angular</h2>
-                        <i class="ri-arrow-down-s-line"></i>
-                    </div>
-                    <div class="menuComponent">
-                        <h2 class="subtitle1">Figma</h2>
-                        <i class="ri-arrow-down-s-line"></i>
-                    </div>
-                </div>
-            </div>
+            <app-proyect-card  [filterCriteria]="selectedFilter"/>
         </div>
     </div>
 </main>

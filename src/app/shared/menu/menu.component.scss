@@ -1,6 +1,13 @@
 aside {
-    height: 100vh; 
+    height: 100vh;
+    height: 100vh;
+    width: 13.85rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
 }
+
 .sidebarContent{
     display: flex;
     flex-direction: column;

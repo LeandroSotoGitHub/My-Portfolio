@@ -1,3 +1,19 @@
+.containerGrid {
+    display: grid;
+    grid-template-columns: 13.85rem 1fr; /* Primera columna para el aside, segunda para el contenido */
+    height: 100vh; /* Para que el grid ocupe toda la altura de la ventana */
+}
+.stickyContainer {
+    display: flex;
+    justify-content: center;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    background-color: white;
+    padding: 1rem 0;
+}
 .gridContainer {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -9,26 +25,12 @@
 .mainContent {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Para que ocupe el espacio restante del menú */
-    height: 100vh; /* Ocupa toda la altura de la ventana */
+    width: 100%;
 }
 .scrollableContent {
-    flex: 1;
-    overflow-y: auto; /* Hace que el contenido sea scrollable */
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
-
-
-.menuPortafolioContainer{
-    grid-column: 1 / -1; /* Ocupa todas las columnas */
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.menuComponent{
-    display: flex;
-    align-items: center;
-    gap: 1rem
+.sectionTitle{
+    flex-direction: column;
 }

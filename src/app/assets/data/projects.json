@@ -1,0 +1,122 @@
+{
+  "proyectos":[
+  {
+    "id": 1,
+    "title": "Siniestrados Liniers",
+    "description": "Este proyecto presentó un desafío adicional, ya que el cliente requería animaciones avanzadas y un diseño visualmente impactante. Para cumplir con estas exigencias, integré librerías como Swiper.js y ScrollReveal, lo que me permitió implementar las animaciones de manera efectiva. Además, la utilización de tecnologías como HTML, CSS y JavaScript me proporcionó la versatilidad necesaria para abordar y desarrollar el proyecto de manera eficiente.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "/assets/SiniestradosLiniers.png",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/Compratuauto.git",
+    "projectUrl": "https://siniestradosliniers.com",
+    "category": "cliente"
+  },
+  {
+    "id": 2,
+    "title": "Rick and Morty App",
+    "description": "Este proyecto fue un desafío significativo, dado que era mi primera experiencia integrando una API de código abierto. Enfrenté varios inconvenientes a lo largo del proceso, siendo el más complejo la implementación de un paginador funcional. El proyecto relacionado con la API de Rick and Morty representó un avance considerable en mi comprensión y habilidades con Angular.",
+    "technologies": ["Angular", "API"],
+    "image": "/assets/RickAndMorty.png",
+    "repoUrl": "https://github.com/usuario/rick-and-morty",
+    "projectUrl": "https://leandro-evaluaciontecnica1.netlify.app/",
+    "category": "personal"
+  },
+  {
+    "id": 3,
+    "title": "Gambini Rurales",
+    "description": "Gambini, una empresa local dedicada a la fabricación y venta de artículos rurales, solicitó una página web que permitiera exhibir de manera efectiva sus productos. Este proyecto, extenso y técnicamente desafiante, me brindó la oportunidad de perfeccionar mi enfoque en la gestión del código. A través de la experiencia adquirida, logré mejorar significativamente la estructura y limpieza del código, lo que resultó en una entrega de alta calidad y fácil mantenimiento.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "/assets/GambiniRurales.png",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/ProyectoGambiniRurales.git",
+    "projectUrl": "https://rickandmortyapp.com",
+    "category": "cliente"
+  },
+  {
+    "id": 4,
+    "title": "Diseño WEB Gambini",
+    "description": "Para el diseño de esta página web, decidí utilizar la reconocida extensión Musho AI, que genera diseños web a partir de un prompt, lo que agilizó significativamente el proceso de desarrollo. Tras ajustar y perfeccionar varios aspectos, conseguí un diseño que se alineaba con las expectativas de mi cliente. Esta experiencia, siendo mi primer proyecto en Figma, me permitió seguir aprendiendo y mejorando en diversos aspectos del diseño.",
+    "technologies": ["Figma"],
+    "image": "/assets/FigmaGambini.png",
+    "repoUrl": "",
+    "projectUrl": "https://www.figma.com/design/jUucgRlap6YfIveArtxXcU/Gambini-Rurales?node-id=0-1&t=EZMJlJql7Y7bjhLt-1",
+    "category": "cliente"
+  },
+  {
+    "id": 5,
+    "title": "Prototipo CodeSYNC",
+    "description": "Durante el curso en Coderhouse, se me asignó la tarea de desarrollar mi primer producto digital utilizando un sistema de diseño.Tras realizar una investigación de mercado, decidí enfocar el proyecto hacia programadores freelance. El prototipo pasó por todas las fases de desarrollo: baja, media y alta fidelidad, incluyendo pruebas y testeo con Marvel. A lo largo de los tres meses de curso, perfeccioné mis habilidades técnicas en Figma y adquirí conocimientos valiosos sobre diseño UX/UI.",
+    "technologies": ["Figma", "Diseño UX/UI"],
+    "image": "/assets/CodeSYNC.png",
+    "repoUrl": "",
+    "projectUrl": "https://www.figma.com/design/JME0jgNtYWaKpbTZ7UsfbJ/CODESYNC-(Entrega-final)---LEANDRO-SOTO?node-id=2-1544&t=wngoogrZayat1xn1-1",
+    "category": "personal"
+  },
+  {
+    "id": 6,
+    "title": "Aberturas LIF",
+    "description": "El proyecto desarrollado para Aberturas LIF, una empresa local especializada en la fabricación y venta de aberturas, me permitió perfeccionar mis habilidades de diseño. Además de la creación de la landing page solicitada, me encargaron la realización de un catálogo digital enfocado en destacar sus productos. Este desafío, que superé con éxito utilizando Figma, me permitió poner en práctica y refinar mi capacidad para diseñar soluciones visualmente impactantes y centradas en el usuario.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "assets/AberturasLIF.png",
+    "repoUrl": "https://github.com/usuario/rick-and-morty",
+    "projectUrl": "https://www.figma.com/design/rDkh6z47aAmXSp6WvWXQyX/CODESYNC---LEANDRO-SOTO?node-id=52-3&t=TOA35C2nrmtBt8ZC-1",
+    "category": "cliente"
+  },
+
+
+
+  {
+    "id": 7,
+    "title": "Cátalogo Aberturas LIF",
+    "description": "Tras completar el desarrollo de la página web, se me solicitó crear un catálogo que incluyera todos los productos ofrecidos. Este desafío, que se extendió durante varias semanas debido a la extensa variedad de productos, requirió mantener una coherencia en el sistema de diseño en todas las páginas. Esta tarea me permitió aplicar plenamente mi creatividad y habilidades en Figma.",
+    "technologies": ["Figma"],
+    "image": "assets/Caratula.png",
+    "repoUrl": "",
+    "projectUrl": "https://www.figma.com/design/E3VoY37Ym3DPgPbfrjIfkT/Catalogo-aberturas-LIF?node-id=0-1&t=kE3RgTvwvpdyOTvj-1",
+    "category": "cliente"
+  },
+  {
+    "id": 9,
+    "title": "To do list",
+  "description": "Este ejercicio tenía como objetivo practicar el pensamiento lógico en JavaScript para resolver problemas, utilizando HTML y CSS junto con la manipulación del DOM mediante JavaScript. Además, se implementó la persistencia de datos en el localStorage para asegurar que la información se mantuviera entre sesiones.",
+  "technologies": ["HTML", "CSS", "JS"],
+  "image": "assets/JustDoIt.png",
+  "repoUrl": "https://github.com/LeandroSotoGitHub/To-do-list.git",
+  "projectUrl": "",
+  "category": "personal"
+},
+
+  {
+    "id": 8,
+    "title": "Practica MobiDigital - 'Scaloneta'",
+    "description": "En esta primera práctica con Angular, desarrollé una aplicación con la temática 'Scaloneta'. La tarea consistía en crear un archivo JSON con la información de los jugadores de la selección argentina, filtrarlos por posición y nombre, eliminar al jugador de mayor edad y calcular el promedio de edad de la plantilla. Esta práctica me permitió aplicar y consolidar mis conocimientos en ngClass, ngIf y ngFor",
+    "technologies": ["Angular", "Boostsrap"],
+    "image": "assets/Scaloneta.png",
+    "repoUrl": "",
+    "projectUrl": "",
+    "category": "personal"
+  },
+
+  
+
+
+  {
+    "id": 10,
+    "title": "Log In",
+    "description": "Siguiendo las directrices del ejercicio de creación de una lista de tareas (to-do list), esta práctica me ayudó a mejorar significativamente mi manejo del DOM y del localStorage. Implementar estas funcionalidades me permitió afianzar mis conocimientos en la manipulación de la interfaz y el almacenamiento de datos en el navegador.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "assets/LogIn.png",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/LogIn.git",
+    "projectUrl": "",
+    "category": "personal"
+  },
+  {
+    "id": 11,
+    "title": "Calculadora",
+    "description": "Esta práctica, proveniente de FrontEnd Mentor, me permitió poner a prueba mis conocimientos de CSS, ya que el diseño de la calculadora debía replicar fielmente el modelo proporcionado. Además, fue un excelente ejercicio para fortalecer mi pensamiento lógico mediante el uso efectivo de JavaScript, asegurando que la calculadora fuera completamente funcional..",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "assets/Calculator.png",
+    "repoUrl": "",
+    "projectUrl": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
+    "category": "personal"
+  }
+  ]
+}
