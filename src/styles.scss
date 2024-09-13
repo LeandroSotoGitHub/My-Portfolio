@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #DBFF00;
-    --primary-color-dark: #BFDE00;
-    /* --secondary-color: #15151f;
-    --secondary-color-dark: #0a0b0f;
+    --primary-color: #034861;
+    --primary-color-dark: #023043;
+    --secondary-color: #dbdbd7;
+    /*--secondary-color-dark: #0a0b0f;
     --text-light: #6b7280;
     --extra-light: #f8f7fd; */
     --white: #ffffff;
+    --background-gray: #E2E8F0;
     /* --max-width: 1200px; */
   }
 
@@ -83,23 +84,23 @@ ul{
 
 .btn.primary {
     background-color: var(--primary-color);
-    color: #000;
+    color: #fff;
 }
 
 .btn.primary:hover {
     background-color: var(--primary-color-dark);
-    color: #000;
+    color: #fff;
 }
 
 .btn.secondary {
     background-color: transparent;
     border: 2px solid var(--primary-color);
-    color: #000;
+    color: var(--primary-color);
 }
 
 .btn.secondary:hover {
     background-color: var(--primary-color-dark);
-    color: #000;
+    color: #fff;
     border-color: var(--primary-color-dark);
 }
 

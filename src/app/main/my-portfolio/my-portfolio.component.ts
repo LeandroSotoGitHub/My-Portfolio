@@ -7,11 +7,10 @@ import * as data from '../../assets/data/projects.json'
   styleUrl: './my-portfolio.component.scss'
 })
 export class MyPortfolioComponent {
-  projects: any[] = data.proyectos;
-
   selectedFilter: any;
 
   onFilterChange(filter: any) {
-    this.selectedFilter = filter; // Actualizamos el filtro seleccionado
+    console.log('Filtro recibido:', filter);
+    this.selectedFilter = filter; // Actualiza el filtro seleccionado
   }
 }

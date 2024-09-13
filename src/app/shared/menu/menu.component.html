@@ -1,6 +1,7 @@
-<aside>
+<aside [class.open]="isMenuOpen">
     <div class="sidebarContent">
-        <img src="Assets/Img/2.jpg" alt="">
+        <!-- Imagen solo visible en pantallas grandes -->
+        <img src="/assets/IMG_3559[1].jpg" alt="" class="sidebarImage">
         <div class="sidebarMenu">
             <ul>
                 <li><a routerLink="/" href="#"><i class="ri-home-fill"></i>Inicio</a></li>
@@ -16,3 +17,8 @@
         </div>
     </div>
 </aside>
+
+<!-- Botón de menú hamburguesa solo visible en pantallas pequeñas -->
+<button class="hamburger" (click)="toggleMenu()">
+    <i class="ri-menu-line"></i>
+</button>

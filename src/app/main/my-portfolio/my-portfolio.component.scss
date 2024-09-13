@@ -34,3 +34,44 @@
 .sectionTitle{
     flex-direction: column;
 }
+
+
+@media screen and (max-width: 620px){
+    .scrollableContent{
+        padding: 0 2rem;
+    }
+    .stickyContainer{
+        justify-content: flex-start;
+        position: initial;
+        padding: 1rem 2rem;
+    }
+  }
+
+/* Estilos responsivos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .containerGrid {
+        grid-template-columns: 1fr; /* Elimina la barra lateral */
+        height: auto; /* Permite que el contenido crezca según sea necesario */
+    }
+
+    .mainContent {
+        padding: 1rem; /* Añade padding para mejorar la legibilidad */
+        width: 100%;
+        height: auto; /* Permite que el contenido se expanda */
+    }
+
+    .sectionTitle {
+        margin-bottom: 1rem;
+        text-align: center; /* Centra el título para una mejor visualización en móviles */
+    }
+    .title{
+        font-size: 4rem;
+    }
+}
+
+/* Ajustes para pantallas medianas */
+@media screen and (max-width: 1024px) {
+    .containerGrid {
+        display: block; /* Ajusta el tamaño del menú */
+    }
+}

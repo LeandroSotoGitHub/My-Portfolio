@@ -7,70 +7,23 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class ProjectsMenuComponent {
   @Output() filterChange = new EventEmitter<any>();
-  isDefault = true;
-  isHtmlMenuOpen = false;
-  isAngularMenuOpen = false;
-  isFigmaMenuOpen = false;
+  
+  activeMenu: string = 'all'; // Menú activo (HTML, Angular, Figma, etc.)
+  openMenu: string | null = null; // Menú desplegado (HTML, Angular, Figma)
 
   toggleMenu(menu: string) {
-    switch (menu) {
-      case 'html':
-        this.isHtmlMenuOpen = !this.isHtmlMenuOpen;
-        this.isAngularMenuOpen = false;
-        this.isFigmaMenuOpen = false;
-        this.isDefault = false;
-        break;
-      case 'angular':
-        this.isAngularMenuOpen = !this.isAngularMenuOpen;
-        this.isHtmlMenuOpen = false;
-        this.isFigmaMenuOpen = false;
-        this.isDefault = false;
-        break;
-      case 'figma':
-        this.isFigmaMenuOpen = !this.isFigmaMenuOpen;
-        this.isHtmlMenuOpen = false;
-        this.isAngularMenuOpen = false;
-        this.isDefault = false;
-        break;
-      default:
-        this.isHtmlMenuOpen = false;
-        this.isAngularMenuOpen = false;
-        this.isFigmaMenuOpen = false;
-        this.isDefault = true;
-        break;
-    }
+    this.openMenu = this.openMenu === menu ? null : menu; // Abre o cierra el menú
   }
 
-  filtrosPrueba(menuType: string) {
-    if (menuType === 'html') {
-      this.filterChange.emit({
-        technologies: ['HTML', 'CSS', 'JS'],
-        category: null
-      });
-    } else if (menuType === 'angular') {
-      this.filterChange.emit({
-        technologies: ['Angular'],
-        category: null
-      });
-    } else if (menuType === 'figma') {
-      this.filterChange.emit({
-        technologies: ['Figma'],
-        category: null
-      });
-    }
+  applyFilter(technologies: string[], category: string | null, menu: string) {
+    this.filterChange.emit({ technologies, category });
+    this.activeMenu = menu; // Establece la sección activa
+    this.openMenu = null; // Cierra el menú desplegable
   }
 
-  filterPersonal() {
-    this.filterChange.emit({
-      technologies: ['HTML', 'CSS', 'JS'],
-      category: 'personal'
-    });
-  }
-
-  filterClient() {
-    this.filterChange.emit({
-      technologies: ['HTML', 'CSS', 'JS'],
-      category: 'client'
-    });
+  mostrarTodosLosProyectos() {
+    this.filterChange.emit(null); // Muestra todos los proyectos
+    this.activeMenu = 'all'; // Resetea el menú activo
+    this.openMenu = null; // Cierra todos los menús
   }
 }

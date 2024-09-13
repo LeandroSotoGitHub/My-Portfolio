@@ -1,37 +1,12 @@
-// :root {
-//     --primary-color: #DBFF00;
-//     --primary-color-dark: #BFDE00;
-//     /* --secondary-color: #15151f;
-//     --secondary-color-dark: #0a0b0f;
-//     --text-light: #6b7280;
-//     --extra-light: #f8f7fd; */
-//     --white: #ffffff;
-//     /* --max-width: 1200px; */
-//   }
-
-// @font-face {
-//     font-family: Bold;
-//     src: url(../../assets/Letters/Poppins-Bold.ttf);
-// }
-// @font-face {
-//     font-family: SemiBold;
-//     src: url(../../assets/Letters/Poppins-SemiBold.ttf);
-// }
-// @font-face {
-//     font-family: Regular;
-//     src: url(../../assets/Letters/Poppins-Regular.ttf);
-// }
-// @font-face {
-//     font-family: Medium;
-//     src: url(../../assets/Letters/Poppins-Medium.ttf);
-// }
-
-
 .headerContainer {
     display: flex;
     width: 100%;
     height: 100vh;
-    background-color: var(--white);
+    background-color: var(--background-gray);
+    background-image: url('/assets/Vector1.png');
+    // background-blend-mode: overlay; /* Mezcla la imagen y el color de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: contain; /* Centra la imagen */
 }
 
 .smallSidebar {
@@ -100,7 +75,7 @@
 .welcomeMain h3 {
     font-family: SemiBold;
     background-color: var(--primary-color);
-    color: #000;
+    color: #fff;
     display: inline-block;
     padding: 8px;
 }

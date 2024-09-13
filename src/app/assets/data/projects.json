@@ -21,6 +21,20 @@
     "category": "personal"
   },
   {
+    "id": 12,
+    "title": "Portafolio",
+    "description": "Este proyecto es el resultado de la evolución de mis habilidades en desarrollo web y diseño digital. Fue creado con el propósito de presentar de manera clara y organizada los trabajos que he realizado tanto para clientes como en proyectos personales. Utilizando Angular como framework principal, estructuré las secciones del portafolio para que la navegación sea fluida y el contenido se presente de manera eficiente, integrando funcionalidades avanzadas como el filtrado dinámico de proyectos y animaciones suaves con ScrollReveal. Este proyecto también fue una oportunidad para poner en práctica mis conocimientos sobre Figma, JavaScript, y desarrollo front-end en general. Mi objetivo fue lograr un balance entre estética, funcionalidad y rendimiento, creando una plataforma que no solo exhiba mis habilidades, sino que también permita una navegación fluida y agradable.",
+    "technologies": ["Angular"],
+    "image": "/assets/RickAndMorty.png",
+    "repoUrl": "",
+    "projectUrl": "",
+    "category": "personal"
+  },
+
+
+
+
+  {
     "id": 3,
     "title": "Gambini Rurales",
     "description": "Gambini, una empresa local dedicada a la fabricación y venta de artículos rurales, solicitó una página web que permitiera exhibir de manera efectiva sus productos. Este proyecto, extenso y técnicamente desafiante, me brindó la oportunidad de perfeccionar mi enfoque en la gestión del código. A través de la experiencia adquirida, logré mejorar significativamente la estructura y limpieza del código, lo que resultó en una entrega de alta calidad y fácil mantenimiento.",
@@ -76,12 +90,12 @@
   {
     "id": 9,
     "title": "To do list",
-  "description": "Este ejercicio tenía como objetivo practicar el pensamiento lógico en JavaScript para resolver problemas, utilizando HTML y CSS junto con la manipulación del DOM mediante JavaScript. Además, se implementó la persistencia de datos en el localStorage para asegurar que la información se mantuviera entre sesiones.",
-  "technologies": ["HTML", "CSS", "JS"],
-  "image": "assets/JustDoIt.png",
-  "repoUrl": "https://github.com/LeandroSotoGitHub/To-do-list.git",
-  "projectUrl": "",
-  "category": "personal"
+    "description": "Este ejercicio tenía como objetivo practicar el pensamiento lógico en JavaScript para resolver problemas, utilizando HTML y CSS junto con la manipulación del DOM mediante JavaScript. Además, se implementó la persistencia de datos en el localStorage para asegurar que la información se mantuviera entre sesiones.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "assets/JustDoIt.png",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/To-do-list.git",
+    "projectUrl": "",
+    "category": "personal"
 },
 
   {
@@ -94,8 +108,6 @@
     "projectUrl": "",
     "category": "personal"
   },
-
-  
 
 
   {

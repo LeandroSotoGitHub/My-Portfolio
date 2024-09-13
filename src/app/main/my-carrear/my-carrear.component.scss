@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding: 0 2rem;
+    padding: 0 4rem;
     margin-bottom: 2rem;
 }
 .sectionTitle{
@@ -19,6 +19,47 @@
     width: 100%; /* Para que ocupe el espacio restante del menú */
     height: 100vh; /* Ocupa toda la altura de la ventana */
 }
-.scrollableContent {
-    padding: 0 2rem;
+
+
+@media screen and (max-width: 572px){
+    .gridContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+}
+/* Estilos responsivos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .containerGrid {
+        grid-template-columns: 1fr; /* Elimina la barra lateral */
+        height: auto; /* Permite que el contenido crezca según sea necesario */
+    }
+
+    .mainContent {
+        padding: 1rem; /* Añade padding para mejorar la legibilidad */
+        width: 100%;
+        height: auto; /* Permite que el contenido se expanda */
+    }
+
+    .sectionTitle {
+        margin-bottom: 1rem;
+        text-align: center; /* Centra el título para una mejor visualización en móviles */
+    }
+    .title{
+        font-size: 4rem;
+    }
+}
+
+/* Ajustes para pantallas medianas */
+@media screen and (max-width: 1024px) {
+    .containerGrid {
+        display: block; /* Ajusta el tamaño del menú */
+    }
+
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en lugar de tres */
+        gap: 1.5rem;
+        padding: 0 2rem;
+    }
 }

@@ -5,17 +5,18 @@ button {
     border-radius: 8px;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 button:hover {
     background-color: var(--primary-color);
-    // color: var(--white);
+    color: var(--white);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .menuActivo:hover{
     transform: scale(1.02);
+    color: #fff;
 }
 .menuPortafolioContainer{
     display: flex;
@@ -34,7 +35,7 @@ button:hover {
 }
 
 .menuActivo{
-    color: #000;
+    color: #fff;
     background-color: var(--primary-color);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -43,19 +44,33 @@ button:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color: white;
+    background-color: var(--white);
     border: 1px solid #ccc;
     padding: 10px;
     top: 100%;
     left: 0;
+    z-index: 100;
   }
 
   .submenu a {
     margin: 5px 0;
     text-decoration: none;
     color: black;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    padding: 0.5rem;
   }
   
   .submenu a:hover {
-    text-decoration: underline;
+    background-color: var(--primary-color);
+    border-radius: 15px ;
+    color: #fff;
+  }
+
+
+  @media screen and (max-width: 620px){
+    .menuPortafolioContainer{
+        gap: 1rem;
+        flex-direction: column;
+    }
   }

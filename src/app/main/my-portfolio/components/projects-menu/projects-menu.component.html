@@ -1,43 +1,47 @@
 <div class="menuPortafolioContainer">
-    <button class="subtitle1 menuActivo" >
-    Todos los proyectos
+    <button 
+      (click)="mostrarTodosLosProyectos()" 
+      class="subtitle1" 
+      [ngClass]="{'menuActivo': activeMenu === 'all'}">
+      Todos los proyectos
     </button>
-
+  
     <div class="menuComponent">
-        <button class="subtitle1" 
-        (click)="toggleMenu('html')"
-        [ngClass]="{'menuActivo': isHtmlMenuOpen}">
+      <button 
+        class="subtitle1" 
+        (click)="toggleMenu('html')" 
+        [ngClass]="{'menuActivo': activeMenu === 'html'}">
         HTML, CSS Y JS
         <i class="ri-arrow-down-s-line"></i>
-        </button>
-        <div *ngIf="isHtmlMenuOpen" class="submenu">
-            <a>Proyectos personales</a>
-            <a>Proyectos para clientes</a>
-            <a>Todos los proyectos</a>
-          </div>
+      </button>
+      <div *ngIf="openMenu === 'html'" class="submenu">
+        <a (click)="applyFilter(['HTML', 'CSS', 'JS'], 'personal', 'html')">Proyectos personales</a>
+        <a (click)="applyFilter(['HTML', 'CSS', 'JS'], 'cliente', 'html')">Proyectos para clientes</a>
+        <a (click)="applyFilter(['HTML', 'CSS', 'JS'], null, 'html')">Todos los proyectos</a>
+      </div>
     </div>
+  
     <div class="menuComponent">
-        <button class="subtitle1"
-        (click)="toggleMenu('angular')"
-        [ngClass]="{'menuActivo': isAngularMenuOpen}">
-        Angular
-        <i class="ri-arrow-down-s-line"></i>
-        </button>
-        <div *ngIf="isAngularMenuOpen" class="submenu">
-            <a>Proyectos personales</a>
-            <a>Proyectos para clientes</a>
-        </div>
-    </div>
-    <div class="menuComponent">
-        <button class="subtitle1"
-        (click)="toggleMenu('figma')"
-        [ngClass]="{'menuActivo': isFigmaMenuOpen}">
+      <button 
+        class="subtitle1" 
+        (click)="toggleMenu('figma')" 
+        [ngClass]="{'menuActivo': activeMenu === 'figma'}">
         Figma
         <i class="ri-arrow-down-s-line"></i>
-        </button>
-        <div *ngIf="isFigmaMenuOpen" class="submenu">
-            <a>Proyectos personales</a>
-            <a>Proyectos para clientes</a>
-        </div>
+      </button>
+      <div *ngIf="openMenu === 'figma'" class="submenu">
+        <a (click)="applyFilter(['Figma'], 'personal', 'figma')">Proyectos personales</a>
+        <a (click)="applyFilter(['Figma'], 'cliente', 'figma')">Proyectos para clientes</a>
+        <a (click)="applyFilter(['Figma'], null, 'figma')">Todos los proyectos</a>
+      </div>
     </div>
-</div>
+
+    <div class="menuComponent">
+        <button 
+          class="subtitle1" 
+          (click)="applyFilter(['Angular'], null, 'angular')"
+          [ngClass]="{'menuActivo': activeMenu === 'angular'}">
+          Angular
+        </button>
+      </div>  
+  </div>

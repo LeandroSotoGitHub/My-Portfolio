@@ -13,6 +13,8 @@ export class ProyectCardComponent {
   @Input() set filterCriteria(criteria: any) {
     if (criteria) {
       this.applyFilter(criteria);
+    }else {
+      this.filteredProjects = this.projects; 
     }
   }
 
