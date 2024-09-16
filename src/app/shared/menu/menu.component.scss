@@ -6,7 +6,12 @@ aside {
     left: 0;
     background-color: var(--primary-color);
     transition: transform 0.3s ease; /* Para el efecto de apertura/cierre del menú */
-    z-index: 100;
+    z-index: 1000;
+}
+
+.activeMenu{
+    transform: scale(1.05);
+    padding: 0.3rem 0.5rem;
 }
 
 .sidebarContent{
@@ -49,8 +54,22 @@ aside {
     font-family: medium;
     font-size: 1.25rem;
 
+
+    border-radius: 20px;
     text-shadow: 1px 1px 1px #00000030;
+    transition: all 0.3s ease-in-out;
 }
+
+.sidebarMenu a:hover{
+    // background-color: var(--white);
+    transform: scale(1.05);
+    padding: 0.3rem 0.5rem;
+    // border: 1px solid #fff;
+
+    // color: var(--primary-color);
+
+}
+
 .social i {
     font-size: 1.25rem;
     padding-top: 1rem;
@@ -65,6 +84,7 @@ aside {
     justify-content: center;
     width: 100%;
     border-top: 1px solid var(--white);
+    padding-top: 1rem;
 }
 .sectionTitle{
     height: 10rem;
@@ -76,6 +96,7 @@ aside {
 .hamburger {
     display: none;
 }
+
 
 /* Oculta el menú lateral en móviles */
 @media screen and (max-width: 1024px) {
@@ -102,15 +123,60 @@ aside {
     }
 
     .sidebarContent img {
-        display: none; /* Oculta la imagen en pantallas pequeñas */
+        display: none;
     }
 
     .sidebarMenu {
         height: auto; /* Ajusta la altura del menú */
-        margin-top: 3rem;
+        margin-top: 4vh;
+        gap: 5vh;
+        
     }
 
     .social {
         justify-content: flex-start; /* Alinea los iconos sociales a la izquierda */
     }
 }
+
+
+
+.social a{
+    background-color: white;
+    padding: 0.7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  .social a svg{
+    height: 1.2rem;
+  }
+  .social a::before{
+    position: absolute;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    transform: translateY(-30px) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42,0,.44,1.68);
+  }
+  .social a:hover{
+    background-color: var(--accent-color);
+    fill: white;
+  }
+  .social a:hover::before{
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+  }
+  .social a:hover::after{
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
+  }

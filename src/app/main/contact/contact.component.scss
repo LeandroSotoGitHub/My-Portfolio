@@ -1,0 +1,95 @@
+.scrollableContent{
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+/* General grid setup */
+.containerGrid {
+    display: grid;
+    grid-template-columns: 13.85rem 1fr;
+    min-height: 100vh;
+}
+
+
+.sectionTitle h1.title {
+    margin-bottom: 1rem;
+}
+
+.contactHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for social, mail, and phone */
+    gap: 2rem;
+    align-items: start;
+}
+
+.socialNetworks, .mail, .phone {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between icon and text */
+    font-size: 1.5rem; /* Font size for labels */
+}
+
+.iconText svg {
+    width: 24px;
+    height: 24px;
+}
+.iconText i{
+    font-size: 24px;
+}
+
+/* Goodbye message style */
+.goodbye h2 {
+    margin-top: 3rem;
+}
+
+a {
+    display: block;
+    margin-top: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .containerGrid {
+        display: block; /* Ajusta el tamaño del menú */
+    }
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionTitle {
+        margin-bottom: 1rem;
+        text-align: center; /* Centra el título para una mejor visualización en móviles */
+    }
+    .title{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 572px){
+    .gridContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+}

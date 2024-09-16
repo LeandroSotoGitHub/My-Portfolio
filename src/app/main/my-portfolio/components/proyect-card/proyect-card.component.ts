@@ -24,5 +24,4 @@ export class ProyectCardComponent {
              (!criteria.category || project.category === criteria.category);
     });
   }
-
 }

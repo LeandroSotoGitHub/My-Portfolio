@@ -11,7 +11,7 @@ export class MyCarrearComponent {
     this.initializeScrollReveal();
   }
   initializeScrollReveal(): any {
-    ScrollReveal().reveal('.prueba', {
+    ScrollReveal().reveal('.reveal', {
       distance: "50px",
       origin: "bottom",
       duration: 1000,

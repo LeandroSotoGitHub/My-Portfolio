@@ -25,15 +25,11 @@
     "title": "Portafolio",
     "description": "Este proyecto es el resultado de la evolución de mis habilidades en desarrollo web y diseño digital. Fue creado con el propósito de presentar de manera clara y organizada los trabajos que he realizado tanto para clientes como en proyectos personales. Utilizando Angular como framework principal, estructuré las secciones del portafolio para que la navegación sea fluida y el contenido se presente de manera eficiente, integrando funcionalidades avanzadas como el filtrado dinámico de proyectos y animaciones suaves con ScrollReveal. Este proyecto también fue una oportunidad para poner en práctica mis conocimientos sobre Figma, JavaScript, y desarrollo front-end en general. Mi objetivo fue lograr un balance entre estética, funcionalidad y rendimiento, creando una plataforma que no solo exhiba mis habilidades, sino que también permita una navegación fluida y agradable.",
     "technologies": ["Angular"],
-    "image": "/assets/RickAndMorty.png",
-    "repoUrl": "",
-    "projectUrl": "",
+    "image": "/assets/portafolio.png",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/My-Portfolio.git",
+    "projectUrl": "https://portfolio-leandrosoto.netlify.app/",
     "category": "personal"
   },
-
-
-
-
   {
     "id": 3,
     "title": "Gambini Rurales",
@@ -50,7 +46,7 @@
     "description": "Para el diseño de esta página web, decidí utilizar la reconocida extensión Musho AI, que genera diseños web a partir de un prompt, lo que agilizó significativamente el proceso de desarrollo. Tras ajustar y perfeccionar varios aspectos, conseguí un diseño que se alineaba con las expectativas de mi cliente. Esta experiencia, siendo mi primer proyecto en Figma, me permitió seguir aprendiendo y mejorando en diversos aspectos del diseño.",
     "technologies": ["Figma"],
     "image": "/assets/FigmaGambini.png",
-    "repoUrl": "",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/ProyectoGambiniRurales.git",
     "projectUrl": "https://www.figma.com/design/jUucgRlap6YfIveArtxXcU/Gambini-Rurales?node-id=0-1&t=EZMJlJql7Y7bjhLt-1",
     "category": "cliente"
   },
@@ -94,7 +90,7 @@
     "technologies": ["HTML", "CSS", "JS"],
     "image": "assets/JustDoIt.png",
     "repoUrl": "https://github.com/LeandroSotoGitHub/To-do-list.git",
-    "projectUrl": "",
+    "projectUrl": "https://leandrosotogithub.github.io/To-do-list/",
     "category": "personal"
 },
 
@@ -104,8 +100,8 @@
     "description": "En esta primera práctica con Angular, desarrollé una aplicación con la temática 'Scaloneta'. La tarea consistía en crear un archivo JSON con la información de los jugadores de la selección argentina, filtrarlos por posición y nombre, eliminar al jugador de mayor edad y calcular el promedio de edad de la plantilla. Esta práctica me permitió aplicar y consolidar mis conocimientos en ngClass, ngIf y ngFor",
     "technologies": ["Angular", "Boostsrap"],
     "image": "assets/Scaloneta.png",
-    "repoUrl": "",
-    "projectUrl": "",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/Ejercicio-Scaloneta",
+    "projectUrl": "https://ejericio-scaloneta.netlify.app/",
     "category": "personal"
   },
 
@@ -117,7 +113,7 @@
     "technologies": ["HTML", "CSS", "JS"],
     "image": "assets/LogIn.png",
     "repoUrl": "https://github.com/LeandroSotoGitHub/LogIn.git",
-    "projectUrl": "",
+    "projectUrl": "https://leandrosotogithub.github.io/LogIn/",
     "category": "personal"
   },
   {
@@ -126,7 +122,7 @@
     "description": "Esta práctica, proveniente de FrontEnd Mentor, me permitió poner a prueba mis conocimientos de CSS, ya que el diseño de la calculadora debía replicar fielmente el modelo proporcionado. Además, fue un excelente ejercicio para fortalecer mi pensamiento lógico mediante el uso efectivo de JavaScript, asegurando que la calculadora fuera completamente funcional..",
     "technologies": ["HTML", "CSS", "JS"],
     "image": "assets/Calculator.png",
-    "repoUrl": "",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/calculadora",
     "projectUrl": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
     "category": "personal"
   }
