@@ -1,23 +1,33 @@
 {
   "proyectos":[
-  {
-    "id": 1,
-    "title": "Siniestrados Liniers",
-    "description": "Este proyecto presentó un desafío adicional, ya que el cliente requería animaciones avanzadas y un diseño visualmente impactante. Para cumplir con estas exigencias, integré librerías como Swiper.js y ScrollReveal, lo que me permitió implementar las animaciones de manera efectiva. Además, la utilización de tecnologías como HTML, CSS y JavaScript me proporcionó la versatilidad necesaria para abordar y desarrollar el proyecto de manera eficiente.",
-    "technologies": ["HTML", "CSS", "JS"],
-    "image": "/assets/SiniestradosLiniers.png",
-    "repoUrl": "https://github.com/LeandroSotoGitHub/Compratuauto.git",
-    "projectUrl": "https://siniestradosliniers.com",
-    "category": "cliente"
-  },
-  {
+    {
     "id": 2,
-    "title": "Rick and Morty App",
-    "description": "Este proyecto fue un desafío significativo, dado que era mi primera experiencia integrando una API de código abierto. Enfrenté varios inconvenientes a lo largo del proceso, siendo el más complejo la implementación de un paginador funcional. El proyecto relacionado con la API de Rick and Morty representó un avance considerable en mi comprensión y habilidades con Angular.",
+    "title": "Rick and Morty App - Register y login",
+    "description": "Este proyecto consiste en una aplicación web que permite a los usuarios visualizar los personajes de la serie Rick y Morty, con funcionalidades de inicio de sesión y registro. Supuso un gran desafío, ya que implicó el uso de una API de autenticación y otra para la gestión de los personajes.",
     "technologies": ["Angular", "API"],
     "image": "/assets/RickAndMorty.png",
-    "repoUrl": "https://github.com/usuario/rick-and-morty",
-    "projectUrl": "https://leandro-evaluaciontecnica1.netlify.app/",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/RickAndMortyApp",
+    "projectUrl": "https://webapprickandmorty.netlify.app/login",
+    "category": "personal"
+  },
+    {
+      "id": 1,
+      "title": "Siniestrados Liniers",
+      "description": "Este proyecto presentó un desafío adicional, ya que el cliente requería animaciones avanzadas y un diseño visualmente impactante. Para cumplir con estas exigencias, integré librerías como Swiper.js y ScrollReveal, lo que me permitió implementar las animaciones de manera efectiva. Además, la utilización de tecnologías como HTML, CSS y JavaScript me proporcionó la versatilidad necesaria para abordar y desarrollar el proyecto de manera eficiente.",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "/assets/SiniestradosLiniers.png",
+      "repoUrl": "https://github.com/LeandroSotoGitHub/Compratuauto.git",
+      "projectUrl": "https://siniestradosliniers.com",
+      "category": "cliente"
+    },
+  {
+    "id": 13,
+    "title": "Plataforma Cursos",
+    "description": "Consiste en un proyecto Angular que contemple la administración de alumnos, clases y cursos, utilizando Angular Material.Teniendo en cuenta los aspectos técnicos y funcionales claves para que el proyecto cumpla con lo requerido",
+    "technologies": ["Angular", "Material", "En desarrollo"],
+    "image": "/assets/plataforma-cursos.png",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/RickAndMortyApp",
+    "projectUrl": "https://webapprickandmorty.netlify.app/login",
     "category": "personal"
   },
   {
@@ -37,7 +47,7 @@
     "technologies": ["HTML", "CSS", "JS"],
     "image": "/assets/GambiniRurales.png",
     "repoUrl": "https://github.com/LeandroSotoGitHub/ProyectoGambiniRurales.git",
-    "projectUrl": "https://rickandmortyapp.com",
+    "projectUrl": "https://gambinirurales.com.ar/",
     "category": "cliente"
   },
   {
@@ -46,7 +56,7 @@
     "description": "Para el diseño de esta página web, decidí utilizar la reconocida extensión Musho AI, que genera diseños web a partir de un prompt, lo que agilizó significativamente el proceso de desarrollo. Tras ajustar y perfeccionar varios aspectos, conseguí un diseño que se alineaba con las expectativas de mi cliente. Esta experiencia, siendo mi primer proyecto en Figma, me permitió seguir aprendiendo y mejorando en diversos aspectos del diseño.",
     "technologies": ["Figma"],
     "image": "/assets/FigmaGambini.png",
-    "repoUrl": "https://github.com/LeandroSotoGitHub/ProyectoGambiniRurales.git",
+    "repoUrl": "",
     "projectUrl": "https://www.figma.com/design/jUucgRlap6YfIveArtxXcU/Gambini-Rurales?node-id=0-1&t=EZMJlJql7Y7bjhLt-1",
     "category": "cliente"
   },
