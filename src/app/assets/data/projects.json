@@ -7,7 +7,7 @@
     "technologies": ["Angular", "API"],
     "image": "/assets/RickAndMorty.png",
     "repoUrl": "https://github.com/LeandroSotoGitHub/RickAndMortyApp",
-    "projectUrl": "https://webapprickandmorty.netlify.app/login",
+    "projectUrl": "https://webapprickandmorty.netlify.app",
     "category": "personal"
   },
     {
@@ -26,8 +26,8 @@
     "description": "Consiste en un proyecto Angular que contemple la administración de alumnos, clases y cursos, utilizando Angular Material.Teniendo en cuenta los aspectos técnicos y funcionales claves para que el proyecto cumpla con lo requerido",
     "technologies": ["Angular", "Material", "En desarrollo"],
     "image": "/assets/plataforma-cursos.png",
-    "repoUrl": "https://github.com/LeandroSotoGitHub/RickAndMortyApp",
-    "projectUrl": "https://webapprickandmorty.netlify.app/login",
+    "repoUrl": "https://github.com/LeandroSotoGitHub/2PF-Soto.git",
+    "projectUrl": "https://codesyncapp.netlify.app",
     "category": "personal"
   },
   {
